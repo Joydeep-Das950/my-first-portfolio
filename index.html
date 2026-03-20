@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IntelliGent Developer Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="loading-text">Loading...</div>
+    </div>
+
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top bg-transparent">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Joydeep Das</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                 <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#clients">My Clients</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                 </ul>
+                     <!-- Dark mode toggle moved to bottom -->
+                    <div class="dark-mode-toggle ms-3">
+                        <i class="fas fa-moon"></i>
+                     </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row min-h-screen items-center">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="animate__animated animate__fadeInDown">Welcome to My Portfolio</h1>
+                    <p class="lead animate__animated animate__fadeInUp">Full Stack Web Developer & UI/UX Designer</p>
+                    <div class="social-icons animate__animated animate__fadeInUp">
+                        <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Update the hero section background in CSS -->
+<!-- Update the About section -->
+<section id="about" class="py-5">
+    <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="./IMG20241224175527_(Joy)_23.png" alt="Profile" class="img-fluid rounded-lg shadow-lg">
+            </div>
+            <div class="col-lg-6">
+                <p class="lead">I'm a passionate and innovative Full Stack Developer with over 8 years of experience in creating scalable web applications and intuitive user interfaces. My expertise spans across modern web technologies, cloud architecture, and responsive design principles. I've successfully delivered more than 50 projects for clients worldwide, ranging from startups to enterprise-level applications.</p>
+                <div class="skills-container">
+                    <div class="skill">HTML5/CSS3</div>
+                    <div class="skill">JavaScript</div>
+                    <div class="skill">ReactJS</div>
+                    <!-- <div class="skill">Next.js</div>
+                    <div class="skill">Node.js</div>
+                    <div class="skill">MongoDB</div>
+                    <div class="skill">AWS</div>
+                    <div class="skill">Docker</div>
+                    <div class="skill">GraphQL</div> -->
+                    <div class="skill">PHP</div>
+                    <div class="skill">MYSQL</div>
+                </div>
+                <div class="action-buttons mt-4">
+                    <a href="#" class="btn-custom btn-cv mobile-hover">
+                        <i class="fas fa-download"></i>
+                        <span>Download CV</span>
+                    </a>
+                    <a href="#contact" class="btn-custom btn-hire mobile-hover">
+                        <i class="fas fa-paper-plane"></i>
+                        <span>Hire Me</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Update the Projects section -->
+<section id="projects" class="py-5">
+    <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <div class="project-card">
+                    <img src="./andrew-neel-cckf4TsHAuw-unsplash.jpg" alt="Project 1">
+                    <div class="project-info">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A full-stack e-commerce solution with payment integration and real-time inventory management</p>
+                        <div class="tech-stack">React • Node.js • MongoDB • Stripe</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="project-card">
+                    <img src="./annie-spratt-hCb3lIB8L8E-unsplash.jpg" alt="Project 2">
+                    <div class="project-info">
+                        <h3>Real-time Chat App</h3>
+                        <p>Feature-rich chat application with video calls and file sharing</p>
+                        <div class="tech-stack">Next.js • Socket.io • WebRTC • AWS</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="project-card">
+                    <img src="firmbee-com-gcsNOsPEXfs-unsplash.jpg" alt="Project 3">
+                    <div class="project-info">
+                        <h3>Analytics Dashboard</h3>
+                        <p>Interactive dashboard with real-time data visualization</p>
+                        <div class="tech-stack">React • D3.js • Node.js • PostgreSQL</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="project-card">
+                    <img src="igor-miske-Px3iBXV-4TU-unsplash.jpg" alt="Project 4">
+                    <div class="project-info">
+                        <h3>Fitness Tracking App</h3>
+                        <p>Mobile-responsive fitness tracking application with ML-powered recommendations</p>
+                        <div class="tech-stack">React Native • TensorFlow.js • Express</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="project-card">
+                    <img src="portfolio-1.png" alt="Project 5">
+                    <div class="project-info">
+                        <h3>Blog Platform</h3>
+                        <p>Modern blogging platform with markdown support and SEO optimization</p>
+                        <div class="tech-stack">Next.js • GraphQL • PostgreSQL</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="project-card">
+                    <img src="marvin-meyer-SYTO3xs06fU-unsplash.jpg" alt="Project 6">
+                    <div class="project-info">
+                        <h3>Weather App</h3>
+                        <p>Real-time weather forecasting with interactive maps</p>
+                        <div class="tech-stack">React • OpenWeather API • Mapbox</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Add this new section -->
+<section id="clients" class="py-5">
+    <div class="container">
+        <h2 class="section-title">My Clients</h2>
+        <div class="row mb-5">
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="counter-card">
+                    <i class="fas fa-users"></i>
+                    <div class="counter-value" data-target="150">0</div>
+                    <h4>Happy Clients</h4>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="counter-card">
+                    <i class="fas fa-project-diagram"></i>
+                    <div class="counter-value" data-target="280">0</div>
+                    <h4>Projects Completed</h4>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="counter-card">
+                    <i class="fas fa-clock"></i>
+                    <div class="counter-value" data-target="8760">0</div>
+                    <h4>Hours of Support</h4>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="counter-card">
+                    <i class="fas fa-award"></i>
+                    <div class="counter-value" data-target="15">0</div>
+                    <h4>Awards Received</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row client-logos">
+            <div class="col-lg-2 col-md-4 col-6 mb-4">
+                <div class="client-logo">
+                    <img src="https://images.pexels.com/photos/8428081/pexels-photo-8428081.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Client 1">
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 mb-4">
+                <div class="client-logo">
+                    <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Client 2">
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 mb-4">
+                <div class="client-logo">
+                    <img src="https://images.pexels.com/photos/7641825/pexels-photo-7641825.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Client 3">
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 mb-4">
+                <div class="client-logo">
+                    <img src="mohamad-khosravi-vS0Kya7E5V4-unsplash.jpg" alt="Client 4">
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 mb-4">
+                <div class="client-logo">
+                    <img src="itay-verchik-YmQ8TrsieE4-unsplash.jpg" alt="Client 5">
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 mb-4">
+                <div class="client-logo">
+                    <img src="irene-strong-TMt3JGoVlng-unsplash.jpg" alt="Client 6">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Update the Testimonials section -->
+<!-- <section id="testimonials" class="py-5">
+    <div class="container">
+        <h2 class="section-title">Testimonials</h2>
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <div class="testimonial-card">
+                    <img src="./itay-verchik-YmQ8TrsieE4-unsplash.jpg" alt="Client 1" class="rounded-circle">
+                    <p>"Outstanding work! Delivered the project on time and exceeded our expectations. The attention to detail and problem-solving skills are remarkable."</p>
+                    <h4>John Doe</h4>
+                    <p class="company">Tech Corp CEO</p>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="testimonial-card">
+                    <img src="https://images.pexels.com/photos/8837543/pexels-photo-8837543.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Client 2" class="rounded-circle">
+                    <p>"Incredible attention to detail and great communication throughout the project. The UI/UX design implementation was exactly what we needed."</p>
+                    <h4>Jane Smith</h4>
+                    <p class="company">Design Studio Owner</p>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="testimonial-card">
+                    <img src="./T-shirts 32.png" alt="Client 3" class="rounded-circle">
+                    <p>"A true professional who delivers high-quality work consistently. The technical expertise and project management skills are exceptional."</p>
+                    <h4>Mike Johnson</h4>
+                    <p class="company">Startup Founder</p>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="testimonial-card">
+                    <img src="https://images.pexels.com/photos/16969910/pexels-photo-16969910/free-photo-of-a-man-in-a-suit-and-tie-is-posing-for-a-picture.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Client 4" class="rounded-circle">
+                    <p>"The e-commerce platform developed has transformed our business. The performance and user experience are outstanding."</p>
+                    <h4>Sarah Williams</h4>
+                    <p class="company">E-commerce Director</p>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="testimonial-card">
+                    <img src="./T-shirts 4.png" alt="Client 5" class="rounded-circle">
+                    <p>"Exceptional problem-solving abilities and technical expertise. Always goes above and beyond to deliver quality results."</p>
+                    <h4>David Chen</h4>
+                    <p class="company">Product Manager</p>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="testimonial-card">
+                    <img src="./irene-strong-TMt3JGoVlng-unsplash.jpg" alt="Client 6" class="rounded-circle">
+                    <p>"The code quality and architecture decisions made our application scalable and maintainable. Highly recommended!"</p>
+                    <h4>Emma Davis</h4>
+                    <p class="company">Tech Lead</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+<!-- Update the Contact Section in your HTML -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="contact-card">
+                    <div class="contact-header">
+                        <i class="fas fa-envelope-open-text"></i>
+                        <h3>Send Me a Message</h3>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-text">
+                                    <i class="fas fa-user"></i>
+                                </span>
+                                <input type="text" class="form-control" placeholder="Your Name" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-text">
+                                    <i class="fas fa-envelope"></i>
+                                </span>
+                                <input type="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-text">
+                                    <i class="fas fa-phone"></i>
+                                </span>
+                                <input type="tel" class="form-control" placeholder="Your Phone (optional)">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-text">
+                                    <i class="fas fa-comment-alt"></i>
+                                </span>
+                                <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Amtala, Uttar Ramkrishnapur, DhanyaSheesha</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91-8145078947</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>dasjoydeepiembca2024@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="social-icons mb-4">
+                        <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <p>&copy; 2026 Joydeep Das. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
